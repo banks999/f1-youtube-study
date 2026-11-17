@@ -1,0 +1,7 @@
+step,rows
+raw rows (all pulls merged),8146
+after leaving out channels in excluded_channels.csv,8029
+after removing duplicate video_ids,8029
+after removing live streams,7126
+after removing videos younger than 7 days,7023
+after removing missing/zero duration,7023
