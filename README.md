@@ -2,7 +2,7 @@
 
 A small data project on how Formula 1's YouTube ecosystem behaves across one season: 7,023 videos from 14 channels over 23 race weekends.
 
-**Read it:** [report with the method, reasoning and limits](https://claude.ai/artifact/JSDQKHkRpBidrHhTZ9Yu6W) · [9-slide deck](https://claude.ai/artifact/TpkYQ9cp3QH9DeTAEQe6fU) · slide images in [`deck/preview/`](deck/preview)
+**Read it:** [report with the method, reasoning and limits (PDF, 9 pages)](docs/F1_YouTube_Report.pdf) · [9-slide deck (PDF)](docs/F1_YouTube_Deck.pdf) · slide images in [`deck/preview/`](deck/preview)
 
 ![Deck cover](deck/preview/01-cover.png)
 
@@ -95,6 +95,8 @@ build_workbook.py      build the Excel workbook (formulas)
 deck/build_deck.py     generate the 9 deck slides from the workbook's values (python deck/build_deck.py)
 deck/check_geometry.py layout check for the generated slides
 deck/preview/          PNG images of the 9 slides
+docs/F1_YouTube_Report.pdf  the written report: method, findings, limits
+docs/F1_YouTube_Deck.pdf    the 9-slide deck
 verify_workbook.py     independent check of the Summary sheet
 verify_analysis.py     independent check of the helper columns and the Analysis sheet
 f1_youtube_study.xlsx  the workbook: Notes, Summary, Analysis, Clean, Baselines, Days, Calendar, Raw
